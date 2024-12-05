@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://do36e55dx7v4o"]
+
+[ext_resource type="Script" path="res://quizz_principal.gd" id="1_eiy0t"]
+[ext_resource type="PackedScene" uid="uid://bcivmkvca14xn" path="res://Drag_button.tscn" id="1_y1r8e"]
+
+[node name="Quizz_principal" type="Node2D"]
+script = ExtResource("1_eiy0t")
+
+[node name="bouton 1" parent="." instance=ExtResource("1_y1r8e")]
+position = Vector2(416, 118)
+
+[node name="bouton 2" parent="." instance=ExtResource("1_y1r8e")]
+position = Vector2(696, 119)
+
+[node name="bouton 3" parent="." instance=ExtResource("1_y1r8e")]
+position = Vector2(416, 253)
+
+[node name="bouton 4" parent="." instance=ExtResource("1_y1r8e")]
+position = Vector2(416, 387)
+
+[node name="bouton 5" parent="." instance=ExtResource("1_y1r8e")]
+position = Vector2(696, 253)
+
+[node name="bouton 6" parent="." instance=ExtResource("1_y1r8e")]
+position = Vector2(695, 388)
